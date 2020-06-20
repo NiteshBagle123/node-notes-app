@@ -2,7 +2,6 @@ const chalk = require('chalk');
 const yargs = require('yargs');
 const notes = require('./notes');
 
-console.log(notes.getNotes());
 console.log(chalk.green.inverse.bold('Success!!!'));
 
 const command = process.argv[2]
